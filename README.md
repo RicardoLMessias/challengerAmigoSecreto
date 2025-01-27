@@ -1,7 +1,8 @@
 
 # Descrição do seu projeto
 
-  Bem vindo ao projeto Challenge Amigo Secreto
+  Bem vindo ao projeto Challenge Amigo Secreto.
+  
   O projeto consiste em um sistema que adiciona nomes e posteriormente sorteia aleatoriamente um nome para o usuário, sendo o seu amigo secreto.
   
 ## Funcionalidades
