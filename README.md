@@ -3,13 +3,12 @@
 
   Bem vindo ao projeto Challenge Amigo Secreto
   O projeto consiste em um sistema que adiciona nomes e posteriormente sorteia aleatoriamente um nome para o usuário, sendo o seu amigo secreto.
-# Funcionalidades;
-Funcionalidade 1: Adicionar nomes
-Funcionalidade 2: sortear aleatoriamente entre os nomes.
+## Funcionalidades;
+Funcionalidade 1: Adicionar nomes para sortear.
 
+Funcionalidade 2: Sortear aleatoriamente os nomes adicionados.
 
-
-
+## Linguagem
 ![GitHub language count](https://img.shields.io/github/languages/count/RicardoLMessias/challengerAmigoSecreto)
 ![GitHub top language](https://img.shields.io/github/languages/top/RicardoLMessias/challengerAmigoSecreto)
 
@@ -20,7 +19,7 @@ Funcionalidade 2: sortear aleatoriamente entre os nomes.
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=for-the-badge">
 </div>
 
-# Como os usuários podem utilizá-lo;
+## Como os usuários podem utilizá-lo;
 
 Os nomes adicionados são armazenados em uma lista e esta lista é exposta para o usuário, se nenhum nome for escrito aparece um alerta informando a necessidade de digitar algo.
 
