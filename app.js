@@ -46,8 +46,9 @@ function sortearAmigo(){
         alert ('Por favor, insira um nome para sorteio.');//um alerta na tela caso não tenha numeros 
     } else {
         let numero = gerarNumeroAleatorio();
-        if(numero !== 'limite')
-            mostrarSorteado(numero);
+        
+        if(numero !== 'limite'){
+        mostrarSorteado(numero);
         console.log(numero);
     }
 }
@@ -70,6 +71,7 @@ function gerarNumeroAleatorio() {
 }
 
 function mostrarSorteado(numero){
+    document.getElementById('botaosorteio').setAttribute('disabled',true);
     let sorteado = document.getElementById('resultado');
     listaAmigos.innerHTML = "";
     let tempoRestante = 10; // Tempo total para mostrar o nome (em segundos)
@@ -86,6 +88,8 @@ function mostrarSorteado(numero){
         if (tempoRestante <= 0) {
             clearInterval(interval); // Para o intervalo quando o tempo acabar
             sorteado.innerHTML = ""; // Limpa o conteúdo após o tempo
+            document.getElementById('botaosorteio').removeAttribute('disabled');
         }
     }, 1000); // Atualiza a cada 1 segundo
+ }
 }
